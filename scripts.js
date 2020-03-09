@@ -1,6 +1,6 @@
 
 $('.bonus').click(function() {
-    $('.bonus__grid').toggleClass('bonus__show');
+    $('.bonus-grid').toggleClass('bonus-show');
     console.log('clicked');
 });
 
