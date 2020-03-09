@@ -62,7 +62,7 @@ h2 {
     text-decoration: none;
     padding: 8px 16px;
     display: inline-block;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, border 0.3s ease;
 }
 
 .grid__btnLink:hover {
