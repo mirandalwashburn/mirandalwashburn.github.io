@@ -67,7 +67,7 @@ h2 {
     background: #545454;
     color: #fafafa;
 }
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 720px) {
     .grid__item {
         width: calc(100% - 48px);
         margin: 0 0 40px;
