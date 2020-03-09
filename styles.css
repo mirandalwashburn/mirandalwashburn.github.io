@@ -26,8 +26,7 @@ h2 {
 .grid {
     margin: 0 0 48px;
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+    flex-wrap: wrap;
 }
 
 .grid__item {
