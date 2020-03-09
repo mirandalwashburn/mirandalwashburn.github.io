@@ -40,7 +40,7 @@ h2 {
 }
 
 .grid__item:nth-of-type(odd) {
-    margin: 0 16px 40px 0;
+    margin: 0 40px 40px 0;
 }
 .grid__iframe {
     border: none;
@@ -66,4 +66,10 @@ h2 {
 .grid__btnLink:hover {
     background: #545454;
     color: #fafafa;
+}
+@media screen and (max-width: 695px) {
+    .grid__item {
+        width: calc(100% - 48px);
+        margin: 0 0 40px;
+    }
 }
