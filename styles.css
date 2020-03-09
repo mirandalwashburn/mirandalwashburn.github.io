@@ -1,5 +1,5 @@
 body {
-    background: #545454;
+    background: #fafafa;
 }
 
 main {
@@ -12,12 +12,12 @@ header {
 }
 
 h1 {
-    color: #fafafa;
+    color: #003a79;
     font-family: sans-serif;
 }
 
 h2 {
-    color: #fafafa;
+    color: #003a79;
     font-family: sans-serif;
     margin: 0 auto 16px;
 }
@@ -68,6 +68,7 @@ h2 {
 .grid__btnLink:hover {
     background: #fafafa;
     color: #444857;
+    border: 2px solid #fafafa;
 }
 
 @media screen and (max-width: 720px) {
