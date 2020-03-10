@@ -70,7 +70,16 @@ h2 {
     color: #444857;
     border: 2px solid #fafafa;
 }
-
+/*BONUS GRID*/
+#bonus-grid {
+    height: 0;
+    opacity: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+}
+.bonus-show {
+    height: 100% !important;
+    opacity: 1 !important;
+}
 @media screen and (max-width: 720px) {
     .grid__item {
         width: calc(100% - 48px);
