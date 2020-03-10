@@ -72,13 +72,10 @@ h2 {
 }
 /*BONUS GRID*/
 #bonus-grid {
-    height: 0;
-    opacity: 0;
-    transition: height 0.3s ease, opacity 0.3s ease;
+    display: block;
 }
 .bonus-show {
-    height: 100% !important;
-    opacity: 1 !important;
+    display: none;
 }
 @media screen and (max-width: 720px) {
     .grid__item {
