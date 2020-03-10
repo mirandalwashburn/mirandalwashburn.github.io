@@ -72,10 +72,10 @@ h2 {
 }
 /*BONUS GRID*/
 #bonus-grid {
-    display: block;
+    display: none;
 }
 .bonus-show {
-    display: none;
+    display: block !important;
 }
 @media screen and (max-width: 720px) {
     .grid__item {
