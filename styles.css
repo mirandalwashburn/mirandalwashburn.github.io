@@ -114,15 +114,13 @@ main {
   cursor: pointer;
   transition: 0.3s ease;
   }
-.card-sm :hover {
+.card-sm:hover {
     margin: -8px 8px 0;
   }
 
   .card__text-sm {
     opacity: 0.8;
   }
-
-
 
 
 /*HIDE DEFAULT SCROLL BAR*/
