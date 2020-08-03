@@ -1,5 +1,4 @@
-$primary-font: sans-serif;
-$secondary-font:'Oswald', sans-serif;
+
 
 body {
   background: #ccc;
@@ -25,7 +24,7 @@ main {
   color: #fff;
   border: 1px solid rgba(255,255,255,0.5);
   border-radius: 24px;
-  font-family: $primary-font;
+  font-family: sans-serif;
   font-size: 6px;
   text-align: center;
   text-decoration: none;
@@ -37,7 +36,7 @@ main {
 }
 .card__text-sm {
   color: #fff;
-  font-family: $primary-font;
+  font-family: sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 16px 0 8px;
@@ -53,7 +52,7 @@ main {
 }
 .card__text-lg {
   color: #fff;
-  font-family: $secondary-font;
+  font-family: sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
@@ -69,14 +68,14 @@ main {
   justify-content: flex-end;
 }
   .card__text-lg {
-    font-family: $secondary-font;
+    font-family: sans-serif;
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 1.4px;
   }
   .card__text-md {
     color: #fff;
-    font-family: $primary-font;
+    font-family: sans-serif;
     font-size: 10px;
     font-weight: 100;
     line-height: 1.5;
