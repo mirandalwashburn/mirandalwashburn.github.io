@@ -79,7 +79,7 @@ main {
     letter-spacing: 1.4px;
 }
 
-.card__text-md {
+.card-lg__container .card__text-md {
     color: #fff;
     font-family: sans-serif;
     font-size: 10px;
@@ -89,11 +89,11 @@ main {
     opacity: 0.5;
 }
 
-.card__text-sm {
+.card-lg__container .card__text-sm {
     font-size: 14px;
 }
 
-.card__text-sm::before {
+ .card-lg__container .card__text-sm::before {
     width: 24px;
     height: 2px;
 }
@@ -106,7 +106,7 @@ main {
     align-self: flex-end;
 }
 
-.card-sm {
+ .card-sm__container  .card-sm {
     background: #ccc;
     background-size: cover;
     background-position: center center;
@@ -124,15 +124,15 @@ main {
     transition: 0.3s ease;
 }
 
-.card-sm:hover {
+.card-sm__container  .card-sm:hover {
     margin: -8px 8px 0;
 }
 
-.card__text-sm {
+ .card-sm__container .card__text-sm {
     opacity: 0.8;
 }
 
-.card-sm .card__text-lg {
+.card-sm__container .card__text-lg {
     font-size: 20px;
 }
 
