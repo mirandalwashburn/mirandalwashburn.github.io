@@ -7,7 +7,6 @@ body {
 }
 
 main {
-    background: red;
     background: url('https://images.unsplash.com/photo-1466071624063-c556307cb4d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60') no-repeat center center;
     background-size: cover;
     box-shadow:
