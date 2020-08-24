@@ -93,7 +93,7 @@ main {
     font-size: 14px;
 }
 
- .card-lg__container .card__text-sm::before {
+.card-lg__container .card__text-sm::before {
     width: 24px;
     height: 2px;
 }
@@ -106,7 +106,7 @@ main {
     align-self: flex-end;
 }
 
- .card-sm__container  .card-sm {
+.card-sm__container .card-sm {
     background: #ccc;
     background-size: cover;
     background-position: center center;
@@ -124,11 +124,11 @@ main {
     transition: 0.3s ease;
 }
 
-.card-sm__container  .card-sm:hover {
+.card-sm__container .card-sm:hover {
     margin: -8px 8px 0;
 }
 
- .card-sm__container .card__text-sm {
+.card-sm__container .card__text-sm {
     opacity: 0.8;
 }
 
