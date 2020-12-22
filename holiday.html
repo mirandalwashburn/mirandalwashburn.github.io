@@ -1,0 +1,233 @@
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #fafafa;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scale(0.8);
+        width: 425px;
+        height: 425px;
+        background: transparent;
+        background: powderblue;
+        border-radius: 50%;
+        position: relative;
+        transform: scale(1.25);
+    }
+
+    .tree {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: -75px 0 0;
+        transform: scale(0.8);
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        list-style: none;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 100px solid darkgreen;
+        padding: 0;
+        position: relative;
+        border-radius: 50px;
+    }
+
+    .one {}
+
+    .two {
+        padding: 30px;
+        margin: -100px 0 0;
+        border-width: 90px;
+    }
+
+    .three {
+        border-width: 144px;
+        margin: -70px 0 0;
+
+    }
+
+    .four {
+        border-width: 160px;
+        margin: -80px 0 0;
+        position: relative;
+    }
+
+    .four::after {
+        content: '';
+        position: absolute;
+        height: 55px;
+        width: 50px;
+        background: #654321;
+        bottom: -214px;
+        left: calc(50% - 25px);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .one li,
+    .two li,
+    .three li,
+    .four li {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+
+    .one li {
+        background: red;
+
+        top: 30px;
+        left: 10px;
+        animation: blink 3s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 0s;
+    }
+
+    .one li:nth-of-type(2) {
+        background: orange;
+        top: 60px;
+        left: -48px;
+        animation: blink 4s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+    }
+
+    .two li {
+        background: blue;
+        top: 115px;
+        left: -47px;
+        animation: blink 4s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 0.25s;
+    }
+
+    .three li {
+        background: orange;
+        top: 115px;
+        left: 80px;
+        animation: blink 4s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+    }
+
+    .three li:nth-of-type(2) {
+        background: purple;
+        top: 88px;
+        left: -60px;
+        animation-delay: 2s;
+    }
+
+    .three li:nth-of-type(3) {
+        background: aqua;
+        top: 0;
+        left: 15px;
+        animation-delay: 2s;
+    }
+
+    .three li:nth-of-type(4) {
+        background: purple;
+        top: 60px;
+        left: 22px;
+        animation: blink 3s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+
+    .four li {
+        background: yellow;
+        top: 111px;
+        left: -20px;
+        animation: blink 1s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+
+    }
+
+    .four li:nth-of-type(2) {
+        background: blue;
+        top: 129px;
+        left: 55px;
+        animation: blink 3s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 0s;
+    }
+
+    .four li:nth-of-type(3) {
+        background: orange;
+        top: 99px;
+        left: -90px;
+        animation: blink 3s ease infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+    .four li:nth-of-type(4) {
+        background: red;
+        top: 50px;
+        left: 8px;
+        animation: blink 3s ease infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0.4;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0.2;
+        }
+    }
+
+</style>
+
+
+<body>
+    <main>
+        <div class="tree">
+            <ul class="one">
+                <li></li>
+                <li></li>
+            </ul>
+
+            <ul class="two">
+                <li></li>
+            </ul>
+
+            <ul class="three">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <ul class="four">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </main>
+
+
+</body>
