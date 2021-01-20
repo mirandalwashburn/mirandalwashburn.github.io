@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+main {
+    position: relative;
+}
+
+.sect {
+    background: url() no-repeat center center;
+}
+
+/*Text*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    color: #003a79;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.54;
+}
+
+p,
+li {
+    color: #545454;
+    font-size: 18px;
+}
+
+li {
+    margin: 0 0 16px;
+}
+
+.title-em {
+    font-style: italic;
+}
+
+/*CTA*/
+.cta-primary,
+.cta__secondary {
+    background: transparent;
+    color: #003a79;
+    border: 2px solid orange;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 32px auto;
+    padding: 8px 16px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.cta-primary::after,
+.cta-secondary::after {
+    color: orange;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.cta-primary::after {
+    content: '>';
+
+}
+
+.cta__secondary::after {
+    content: '[NOT COMPLETE]';
+}
+
+.cta__secondary::after {
+    content: '[COMPLETE]';
+}
+
+/*Welcome*/
+#welcome {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__logo {
+    padding: 64px 0;
+}
+
+/*....title....*/
+.welcome__title {
+    background: #003a79;
+    width: 100%;
+}
+
+.welcome__title-sm {
+    font-size: 24px;
+    display: block;
+}
+
+.welcome__title-lg {
+    font-size: 40px;
+}
+
+.welcome__title__highlight {
+    color: orange;
+}
+
+.welcome__desc {
+    max-width: 960px;
+    margin: 32px auto;
+}
+
+/*Nav*/
+.nav {
+    display: fixed;
+    position: relative;
+}
+
+/*...menu nav - hamburger stack...*/
+#menuNav {
+    background: #003a79;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menuNav p {
+    color: #fff;
+}
+
+.menuNav__icon {
+    background: url() no-repeat center center;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.menuNav__menu {
+    display: none;
+}
+
+ul.menuNav__itemCont {
+    background: #003a79;
+    width: 400px;
+    padding: 0 16px;
+    position: absolute;
+    top: 54px;
+    right: 32px;
+}
+
+li.menuNav__item {
+    list-style: none;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 48px;
+    position: relative;
+}
+
+li.menuNav__item::after {
+    content: ">";
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 16px);
+    right: 16px;
+}
+
+.menuNav__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuNav__item__num {
+    color: orange;
+    font-size: 14px;
+    display: block;
+}
+
+/*... module nav...*/
+#modNav {
+    background: lightblue;
+    padding: 8px 0;
+}
+
+#modNav ul {
+    list-style: none;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.modNav__item {
+    margin: 0;
+}
+
+.modNav__item a {
+    background: #003a79;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+/*Welcome*/
+#welcome {}
+
+/*Modules*/
+/*...intro...*/
+.mod__intro {
+    min-height: calc(100vh - 105px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*...content...*/
+.mod {
+    padding: 24px;
+}
+
+.mod__intro__modNum,
+.mod__intro__modTitle,
+.mod__intro__desc {
+    color: #003a79;
+    text-align: center;
+}
+
+.mod__intro__modNum {
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.mod__content__title,
+.mod__content__txt {
+    max-width: 960px;
+    margin: 32px auto;
+}
+
+.mod__intro__modTitle {
+    font-size: 40px;
+    margin: 0;
+}
+
+.mod__content {
+    display: none;
+}
+
+hr.mod__content__txt__hr {
+    border-color: #003a79;
+    margin: 32px 0;
+}
+
+.mod__content__video {
+    background: #f5f5f5;
+    padding: 16px 0;
+}
+
+/*Disclosure*/
+#disclosure {
+    position: absolute;
+    bottom: 8px;
+}
+
+</style >
